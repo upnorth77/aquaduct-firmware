@@ -9,7 +9,8 @@ aquarium light controller.
 
 ## Download
 
-Open the [latest release](../../releases/latest) and download:
+Open the [Releases page](../../releases) and select the newest appropriate
+version. Download:
 
 - `aquaduct-firmware-<version>.bin` — controller firmware
 - `Aquaduct-Quick-Start-Guide-<version>.pdf` — setup guide
@@ -18,7 +19,7 @@ Open the [latest release](../../releases/latest) and download:
 
 ## Update an existing controller
 
-1. Download the `.bin` file from the latest release.
+1. Download the `.bin` file from the selected release.
 2. Back up the controller from **Settings > Maintenance**.
 3. Open **Settings > Firmware Update**.
 4. Select the downloaded `.bin` file and start the update.
@@ -41,4 +42,3 @@ Mount USB openings downward, provide cable strain relief, and use drip loops.
 
 This repository distributes compiled firmware and documentation. Firmware
 source files and build tooling are not included.
-
