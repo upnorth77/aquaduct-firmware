@@ -10,7 +10,9 @@
   signal strength in Diagnostics; adds an explanation for reason 39.
 - Includes matching Quick Start and User Manual PDFs.
 - Build, connection-timing boundary checks, and mocked browser checks passed.
-  Physical Wi-Fi selection and DHCP behavior remain untested.
+  The user confirmed successful Wi-Fi connection on the RTC breadboard
+  prototype after installing this version. Access-point selection and DHCP
+  timing were not measured separately.
 - Retains Rev A prototype and one-source-only power requirements.
 
 ## 0.21.7 - Beta
