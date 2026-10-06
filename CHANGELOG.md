@@ -1,5 +1,12 @@
 # Release notes
 
+## 0.21.6 - Beta
+
+- Moves Weekly plan near the top of Edit schedules, below profile controls
+  and above schedule import. Weekly scheduling behavior is unchanged.
+- Includes matching Quick Start and User Manual PDFs.
+- Retains Rev A prototype and one-source-only power requirements.
+
 ## 0.21.5 - Beta
 
 - Uses a clearer SVG gear for Settings.
