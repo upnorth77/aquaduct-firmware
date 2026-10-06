@@ -1,5 +1,18 @@
 # Release notes
 
+## 0.21.8 - Beta
+
+- Scans all Wi-Fi channels and prefers the strongest matching access point
+  instead of connecting to the first match.
+- Allows 30 seconds to associate and a separate 60-second IP-address window,
+  with a 90-second overall limit across reconnects before returning to setup.
+- Shows the last associated access-point MAC/channel and last disconnect
+  signal strength in Diagnostics; adds an explanation for reason 39.
+- Includes matching Quick Start and User Manual PDFs.
+- Build, connection-timing boundary checks, and mocked browser checks passed.
+  Physical Wi-Fi selection and DHCP behavior remain untested.
+- Retains Rev A prototype and one-source-only power requirements.
+
 ## 0.21.7 - Beta
 
 - Shows Wi-Fi connection progress and the last ESP32 disconnect reason and
