@@ -1,5 +1,18 @@
 # Release notes
 
+## 0.21.7 - Beta
+
+- Shows Wi-Fi connection progress and the last ESP32 disconnect reason and
+  numeric code in the joining page and Diagnostics.
+- Includes the target network and full station MAC address for matching
+  access-point records; distinguishes IP-address timeout and browser contact loss.
+- Corrects the joining page's character encoding and opening message.
+- Includes matching Quick Start and User Manual PDFs.
+- Firmware build, documentation checks, and mocked browser tests passed.
+  Physical Wi-Fi behavior remains untested; this improves reporting and does
+  not establish a fix for connection failures.
+- Retains Rev A prototype and one-source-only power requirements.
+
 ## 0.21.6 - Beta
 
 - Moves Weekly plan near the top of Edit schedules, below profile controls
