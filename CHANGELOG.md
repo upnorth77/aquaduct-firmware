@@ -1,5 +1,21 @@
 # Release notes
 
+## 0.21.5 - Beta
+
+- Uses a clearer SVG gear for Settings.
+- Combines schedule navigation under Schedules, with Edit schedules and
+  Create new schedule tabs replacing Advanced editor and Wizard labels.
+- Imports saved schedules from another Aquaduct from the receiving controller.
+  Choose a source controller, source schedule, and unique local name.
+- Imported schedules stay inactive; source operation and receiving-controller
+  master intensity, weekly plan, current output, and safety settings are preserved.
+- Both controllers need firmware supporting pull imports. Existing profiles are
+  never overwritten. Review and save an imported profile before using it.
+- Includes matching Quick Start and User Manual PDFs.
+- Build and mocked desktop/mobile UI checks passed. Physical two-controller
+  transfer has not been validated. Retains Rev A prototype and one-source-only
+  power requirements.
+
 ## 0.21.3 - Beta
 
 - Adds configurable 12-hour, 24-hour, or automatic time display.
